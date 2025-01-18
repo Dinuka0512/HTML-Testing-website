@@ -3,6 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Text Formatting</title>
+    <style>
+        td{
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+
+            text-align: center;
+        }
+
+        .th{
+            color: red;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+    </style>
 </head>
 <body>
 <!--HEDDINGS-->
@@ -241,5 +259,192 @@
         </ol>
     </li>
 </ol>
+
+
+
+<!--TABLE
+    <table> - create table
+    <thead> - table header
+    <tbody> - table body
+    <tr> - table row
+    <td> - table data
+    <caption> - add a caption data
+    <tfoot> -  table footer
+-->
+
+<caption>Students</caption>
+<table border="1">
+    <thead>
+    <th>id</th>
+    <th>frist name</th>
+    <th>surename</th>
+    <th>address</th>
+    <th>mobile</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Dinuka</td>
+        <td>Sooriya Arachchilage</td>
+        <td>Bandaragama</td>
+        <td>078 713 5526</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Kamal</td>
+        <td>Hetti Arachchi</td>
+        <td>Horana</td>
+        <td>078 787 1233</td>
+    </tr>
+    <tr>
+        <tfoot>
+            <th>id</th>
+            <th>frist name</th>
+            <th>surename</th>
+            <th>address</th>
+            <th>mobile</th>
+        </tfoot>
+    </tr>
+    </tbody>
+
+</table><caption>Students</caption>
+<table border="1">
+    <thead>
+    <th>id</th>
+    <th>frist name</th>
+    <th>surename</th>
+    <th>address</th>
+    <th>mobile</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td colspan="2">Dinuka</td>
+        <td>Bandaragama</td>
+        <td>078 713 5526</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Kamal</td>
+        <td>Hetti Arachchi</td>
+        <td>Horana</td>
+        <td>078 787 1233</td>
+    </tr>
+    <tr>
+        <tfoot>
+            <th>id</th>
+            <th>frist name</th>
+            <th>surename</th>
+            <th>address</th>
+            <th>mobile</th>
+        </tfoot>
+    </tr>
+    </tbody>
+</table>
+
+
+<caption>Students</caption>
+<table border="1">
+    <thead>
+    <th>id</th>
+    <th>frist name</th>
+    <th>surename</th>
+    <th>address</th>
+    <th>mobile</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Dinuka</td>
+        <td>Sooriya Arachchilage</td>
+        <td>Bandaragama</td>
+        <td rowspan="2">078 713 5526</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Kamal</td>
+        <td>Hetti Arachchi</td>
+        <td>Horana</td>
+    </tr>
+    <tr>
+        <tfoot>
+            <th>id</th>
+            <th>frist name</th>
+            <th>surename</th>
+            <th>address</th>
+            <th>mobile</th>
+        </tfoot>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+<br>
+<caption>Exercise 03</caption>
+    <table border = "1">
+        <thead>
+            <th class = "th">Id</th>
+            <th class = "th">Name</th>
+            <th class = "th" colspan="2">Email</th>
+            <th class = "th">Partner's Name</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Kavindu</td>
+                <td>Kavindu1@gmail.com</td>
+                <td>Kavindu2@gmail.com</td>
+                <td>Mr.Rathnayaka</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Janith</td>
+                <td>Janith1@gmail.com</td>
+                <td>Janith1@gmail.com</td>
+                <td>Mr.Sarath</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sheron</td>
+                <td colspan="2">Sheron@gmail.com</td>
+                <td rowspan="2">MrKamal</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Brain</td>
+                <td>Brian@gmail.com</td>
+                <td>Brian@gmail.com</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Vishwa</td>
+                <td>Vishwa1@gmail.com</td>
+                <td>Vishwa1@gmail.com</td>
+                <td>Mr.Nimal</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>saroja</td>
+                <td rowspan="2" colspan="2">saroja@gmail.com</td>
+                <td rowspan="2">Mr.nelson</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Sarojini</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+    <footer>
+        <button>
+            <a href="htmlDay1.html"> Previous</a>
+        </button>
+
+        <button>
+            <a href="htmlDay3.html"> Next Page</a>
+        </button>
+    </footer>
 </html>
