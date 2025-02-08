@@ -1,0 +1,37 @@
+#myBtn{
+    color: red;
+}
+
+*{
+    padding: 10px;
+}
+
+body>section>p{
+    margin-top: -30px;
+    text-align: justify;
+}
+
+[title="FristSection"]{
+    border: #7e7e7e;
+    border-width: 10px;
+    border-style: solid;
+    background-color: darkgray;
+}
+
+.section{
+    padding: 10px 10px 10px 10px;
+    border: #797979 5px solid;
+}
+
+.section h3{
+    color: red;
+    text-align: center;
+}
+
+.section p{
+    text-align: center;
+}
+
+#main{
+    display: flex;
+}
